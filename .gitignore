@@ -1,0 +1,14 @@
+# data (no subir a github)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# python env
+.venv/
+.env
+
+# cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
