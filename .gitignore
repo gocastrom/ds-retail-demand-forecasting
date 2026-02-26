@@ -1,14 +1,13 @@
-# data (no subir a github)
-data/raw/
-data/processed/
+# Entornos de Python
+venv/
+__pycache__/
+*.pyc
+
+# Archivos de datos (para no subirlos a GitHub)
 *.csv
 *.parquet
+data/
 
-# python env
-.venv/
-.env
+# Archivos específicos del sistema operativo
+.DS_Store
 
-# cache
-__pycache__/
-.ipynb_checkpoints/
-*.pyc
